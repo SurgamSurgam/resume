@@ -12,10 +12,39 @@ div.wrapper {
   margin: 0 auto;
   height: 100%;
   font-family: "Times New Roman", Georgia, Serif;
+  padding-top: 32px;
 }
 
 .wrapper .block {
   width: 100%;
+}
+
+.text-links,
+.hide {
+  display: none;
+}
+
+i.icons {
+  display: contents;
+}
+
+.name-block-details {
+  display: flex;
+  justify-content: space-around;
+  margin: 14px 0;
+}
+
+.end-to-end {
+  display: flex;
+  flex-direction: column;
+}
+
+#title-spacing {
+  margin: 10px 0;
+}
+
+#job-role-p-wrapper {
+  margin: 10px 0;
 }
 
 /* GENERAL STYLES  */
@@ -57,6 +86,7 @@ a:hover {
 .bullet {
   display: none;
 }
+
 .wrapper .block ul,
 .wrapper .block p,
 .wrapper .block h3,
@@ -83,7 +113,7 @@ a:hover {
 .generic_paragraph,
 .social-link,
 .skills-list-wrapper {
-  font-size: 18px;
+  font-size: 1em;
 }
 
 .wrapper .block span.italic,
@@ -100,7 +130,7 @@ a:hover {
 
 .wrapper .block h3,
 .generic_header {
-  font-size: 20px;
+  font-size: 1.1111111111111112em;
   padding-bottom: 2px;
   border-bottom: 1px solid black;
 }
@@ -133,11 +163,29 @@ a:hover {
 
   .end-to-end {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
   }
 
   .edu-info {
-    font-size: 18px;
+    font-size: 1em;
+  }
+
+  .text-links,
+  .hide {
+    display: contents;
+  }
+
+  i.icons {
+    display: none;
+  }
+
+  #title-spacing {
+    margin: 0 0;
+  }
+
+  #job-role-p-wrapper {
+    margin: 0 0;
   }
 }
 
